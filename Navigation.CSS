@@ -1,0 +1,52 @@
+.navigation-bar{
+    height:40px;
+    background-color:#232F3E;
+    color:white;
+    position:fixed;
+    top:60px;
+    right:0px;
+    left:0px;
+    z-index:80;
+}
+.All{
+    width:50px;
+    margin-left:20px;
+    display:flex;
+    flex-direction:row;
+}
+.menubar-logo-container{
+    width:25px;
+}
+.text-all{
+    flex:1;
+    font-size:14px;
+    font-family:Arial;
+    margin:0px;
+    font-weight:730;
+    padding-left:-0.5px;
+    position:relative;
+}
+.alll{
+    position:absolute;
+    top:-2px;
+}
+.options{
+    position:relative;
+    left: 32px;
+    bottom:3px;
+    font-family:Arial;
+    font-size:14px;
+    font-weight:500;
+}
+.options li{
+    list-style:none;
+    float:left;
+    margin-left:4px;
+    margin-right:4px;
+    
+}
+.options li a{
+    text-decoration: none;
+    padding:3px 3px;
+    color:white;
+}
